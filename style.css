@@ -1,0 +1,128 @@
+body {
+    background-color: #eee;
+}
+
+/*.nav-link {
+    border-radius: 0px !important;
+    transition: all 0.5s;
+    width: 100px;
+    display: flex;
+    flex-direction: column
+}
+
+.nav-link small {
+    font-size: 12px
+}
+
+.nav-link:hover {
+    background-color: #52525240 !important
+}
+
+.nav-link .fa {
+    transition: all 1s;
+    font-size: 20px
+}
+
+.nav-link:hover .fa {
+    transform: rotate(360deg)
+}*/
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 10px 0px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  /*padding: 12px;*/
+  text-decoration: none;
+  font-size: 18px; 
+  /*line-height: 25px;*/
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+.header-right {
+  float: right;
+}
+.sidenav {
+  display: none;
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.clearfix{
+    padding: 10px;
+
+}
+.clearfix a
+{
+    padding: 5px;
+}
+.clearfix .btn {
+background: #28DAE8;
+color: white;
+border-radius: 20px;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+border-radius: 25px;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    /*display: block;*/
+    z-index: 2;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+.card-img-top{
+border-radius: 20px;
+}
+.name{
+text-align: center;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+align-items: center;
+color: #000000;
+}
